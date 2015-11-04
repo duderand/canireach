@@ -1,0 +1,18 @@
+﻿doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='referrer', content='no-referrer')
+    title #{title} - canireach
+    link(rel='stylesheet', type='text/css', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', type='text/css', href='/stylesheets/style.css')
+    script(src='/javascripts/lib/require.js', data-main="javascripts/#{datamain}")
+  body
+    .container.body-content
+      block content
+      hr
+      footer
+        p canireach TODO
+
+    block scripts

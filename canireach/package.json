@@ -1,0 +1,15 @@
+{
+  "name": "canireach",
+  "version": "0.0.1",
+  "description": "canireach",
+  "main": "app.js",
+  "author": {
+    "name": "nope",
+    "email": "nope@nope.org"
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "stylus": "*"
+  }
+}
