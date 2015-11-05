@@ -1,5 +1,10 @@
-# canireach
+﻿# canireach
 
-Geez, damn VS2015!
+## TODO
 
-Please go to the canireach folder for a better readme
+* ugly as fuck, can I have a make over?
+* requirejs looks weird, hum...
+* auto favicon detection
+* server get and push of test results
+* improve block detection
+* detect cache hits on block detection
