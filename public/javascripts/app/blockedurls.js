@@ -1,93 +1,19 @@
-﻿define(function () {
+﻿define(['promise'], function () {
     return {
-        getPT: function () {
-            return ['https://www.uber.com/favicon.ico',
-        'http://cdn.tvdez.com/favicon.ico',
-        'http://www.tvgolo.com/favicon.ico',
-        'http://www.sportlemon.tv/favicon.ico',
-        'http://atdhe.eu/favicon.ico',
-        'http://cdn.aovivoagora.com/wp-content/themes/aovivoagora/images/favicon.ico',
-        'http://tvfree2.me/favicon.ico',
-        'http://www.soinformatica.org/favicon.ico',
-        'http://sporttvfree.com/favicon.ico',
-        'http://1337x.to/favicon.ico',
-        'http://btrev.net/favicon.ico',
-        'http://dayt.se/favicon.ico',
-        'http://extratorrent.cc/favicon.ico',
-        'http://forum-maximus.net/favicon.ico',
-        'http://gigatuga.com/wp-content/uploads/2015/10/1.png',
-        'http://lusoshare.com/wp-content/uploads/2015/04/logo1.png',
-        'http://megafilmeshd.net/wp-content/themes/thema-novo/images/favicon.ico',
-        'http://osreformados.com/favicon.ico',
-        'http://piratatugafilmes.com/wp-content/uploads/2015/07/favicon.ico',
-        'http://poptuga.com/favicon.ico',
-        'http://revistas-jornais.blogspot.com/favicon.ico',
-        'http://revistas-jornais.blogspot.pt/favicon.ico',
-        'http://seriestvix.tv/wp-content/uploads/2013/04/Logo1.png',
-        'http://thewatchseries.to/templates/default/images/favicon.ico',
-        'http://toppt.net/wp-content/themes/Mundo/images/favicon.png',
-        'http://torrentreactor.com/favicon.ico',
-        'http://tuga.io/images/favicon.png',
-        'http://tugaanimado.net/wp-content/themes/metro-creativex/images/pt_standard.png',
-        'http://tugaflix.com/favicon.ico',
-        'http://watchseries.lt/favicon.ico',
-        'http://www.baixartv.com/wp-content/mbp-favicon/favicon113.ico',
-        'http://www.cinefilmesonline.net/wp-content/themes/cinefilmesonline2/favicon.png',
-        'http://www.elitedosfilmes.com/wp-content/themes/elitedosfilmes/images/favicon.ico',
-        'http://www.filmesonline2.com/wp-content/themes/filmesonline/images/filme.png',
-        'http://www.filmesonlinegratis.net/favicon.ico',
-        'http://www.lusofilmesonline.com/favicon.ico',
-        'http://www.primewire.ag/favicon.ico',
-        'http://www.rpds-download.org/images/favicon.ico',
-        'http://www.scnsrc.me/favicon.ico',
-        'http://www.seriesvideobb.com/wp-content/themes/seriesvideobb/favicon.ico',
-        'http://www.sharetuga.com/favicon.ico',
-        'http://www.torrenthound.com/favicon.ico',
-        'http://www.tuga-filmes.info/favicon.ico',
-        'http://www.warez-box.net/uploads/monthly_2015_09/popcorn_full.ico.6ad8cd140e7b407b3d29c5f6b60126b2.ico',
-        'http://www.watchseries.li/favicon.ico',
-        'https://filmesonlineportugueses.wordpress.com/favicon.ico',
-        'https://isohunt.to/favicon.ico',
-        'https://kat.cr/favicon.ico',
-        'https://piratebay.to/favicon.ico',
-        'https://rarbg.to/favicon.ico',
-        'https://ratotv.net/favicon.ico',
-        'https://thepiratebay.la/favicon.ico',
-        'http://tugahd.com/templates/yoo_nite/favicon.ico',
-        'http://www.serieshared.blogspot.pt/favicon.ico',
-        'http://tudodownloadpt-pt2.blogspot.pt/favicon.ico',
-        'http://amofilmes.net/wp-content/uploads/favicon1.ico',
-        'http://avxhome.se/favicon.ico',
-        'http://bitsnoop.com/favicon.ico',
-        'http://dramatize.com/favicon.ico',
-        'http://ilovefilmesonline.com/wp-content/uploads/2015/05/Untitled-5.png',
-        'http://megafilmeshd.tv/wp-content/themes/megafilmeshdtv/favicon.png',
-        'http://megafilmesonline.net/wp-content/themes/fog/favicon.png',
-        'http://cdn4.projectfreetv.so/wp-content/uploads/2015/01/favicon.ico',
-        'http://sanet.me/favicon.ico',
-        'http://sceper.ws/favicon.ico',
-        'http://series-cravings.me/wp-content/uploads/2015/01/111.png',
-        'http://topdezfilmes.org/wp-content/uploads/2014/03/icone.png',
-        'http://toptorrent.org/wp-content/uploads/2015/03/totorrnetlogo.png',
-        'http://www.armagedomfilmes.biz/favicon.ico',
-        'http://www.baixartorrent.net/wp-content/uploads/2015/08/cropped-favicon.png',
-        'http://www.cucirca.eu/favicon.ico',
-        'http://www.ddlvalley.rocks/favicon.ico',
-        'http://www.filmesdetv.com/images/favicon.ico',
-        'http://www.megafilmesonlinehd.com/favicon.ico',
-        'http://www.onlinemovies-pro.com/wp-content/uploads/onlinemovies%20pro.png',
-        'http://www.rlslog.net/favicon.ico',
-        'http://www.seedpeer.eu/favicon.ico',
-        'http://www.supercineonline.com/wp-content/themes/supercineonline/favicon.ico',
-        'http://www.telona.org/wp-content/themes/telonar/apple-touch-icon-precomposed.png',
-        'http://www.torlock.com/favicon.ico',
-        'http://www.torrentfunk.com/favicon.ico',
-        'http://www.torrents.net/favicon.ico',
-        'http://www.tubeplus.is/favicon.ico',
-        'http://www.tuga-filmes.com/wp-content/uploads/2015/09/aviso-720x405.jpg',
-        'https://yourbittorrent.com/favicon.ico',
-        'http://mp3skull.online/favicon.ico',
-        'http://megapirata.net/templates/templight/images/favicon.ico'];
+        getblocked: function () {
+            return new Promise(function (fulfill, reject) {
+                var jqXHR = $.ajax({
+                    url: '/list',
+                    success: jQuery.noop,
+                    dataType: 'json'
+                })
+                .done(function(data, textStatus, jqXHR ) {
+                    fulfill(data);
+                })
+                .fail(function(jqXHR, textStatus, errorThrown ) {
+                    reject(errorThrown);
+                });
+            });
         }
     }
 });

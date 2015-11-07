@@ -1,2 +1,0 @@
-﻿define(['app/bootstrap'], function () {
-});

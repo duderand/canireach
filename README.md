@@ -1,10 +1,14 @@
 ﻿# canireach
 
+## Guidelines
+
+* Do not add depencies to other domains (like fonts).
+* Keep jQuery to a minimum.
+
 ## TODO
 
-* ugly as fuck, can I have a make over?
-* requirejs looks weird, hum...
-* auto favicon detection
-* server get and push of test results
+* add acknowledgements page
+* add auto favicon detection
+* add pushing of test results
 * improve block detection
 * detect cache hits on block detection

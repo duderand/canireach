@@ -1,0 +1,14 @@
+﻿extends layout
+
+block content
+  .h1 See the list
+
+  div.panel.panel-default
+    div.panel-heading Information
+    div.panel-body 
+      p This list of blocked sites is based on the common blocked sites for #{blocked.country} and it was generated at #{blocked.recordtimestamp}.
+    table.table.table-hover.table-bordered
+      tbody
+        each block in blocked.list
+          tr
+            td= block.host
