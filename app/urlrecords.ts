@@ -11,11 +11,9 @@ export function getblocked(req: express.Request) {
     };
 
     blocked.list.push({ host: 'www.uber.com', imgtest: 'https://www.uber.com/favicon.ico' });
-    blocked.list.push({ host: 'cdn.tvdez.com', imgtest: 'http://cdn.tvdez.com/favicon.ico' });
     blocked.list.push({ host: 'www.tvgolo.com', imgtest: 'http://www.tvgolo.com/favicon.ico' });
     blocked.list.push({ host: 'www.sportlemon.tv', imgtest: 'http://www.sportlemon.tv/favicon.ico' });
     blocked.list.push({ host: 'atdhe.eu', imgtest: 'http://atdhe.eu/favicon.ico' });
-    blocked.list.push({ host: 'cdn.aovivoagora.com', imgtest: 'http://cdn.aovivoagora.com/wp-content/themes/aovivoagora/images/favicon.ico' });
     blocked.list.push({ host: 'tvfree2.me', imgtest: 'http://tvfree2.me/favicon.ico' });
     blocked.list.push({ host: 'www.soinformatica.org', imgtest: 'http://www.soinformatica.org/favicon.ico' });
     blocked.list.push({ host: 'sporttvfree.com', imgtest: 'http://sporttvfree.com/favicon.ico' });
@@ -72,7 +70,6 @@ export function getblocked(req: express.Request) {
     blocked.list.push({ host: 'ilovefilmesonline.com', imgtest: 'http://ilovefilmesonline.com/wp-content/uploads/2015/05/Untitled-5.png' });
     blocked.list.push({ host: 'megafilmeshd.tv', imgtest: 'http://megafilmeshd.tv/wp-content/themes/megafilmeshdtv/favicon.png' });
     blocked.list.push({ host: 'megafilmesonline.net', imgtest: 'http://megafilmesonline.net/wp-content/themes/fog/favicon.png' });
-    blocked.list.push({ host: 'cdn4.projectfreetv.so', imgtest: 'http://cdn4.projectfreetv.so/wp-content/uploads/2015/01/favicon.ico' });
     blocked.list.push({ host: 'sanet.me', imgtest: 'http://sanet.me/favicon.ico' });
     blocked.list.push({ host: 'sceper.ws', imgtest: 'http://sceper.ws/favicon.ico' });
     blocked.list.push({ host: 'series-cravings.me', imgtest: 'http://series-cravings.me/wp-content/uploads/2015/01/111.png' });

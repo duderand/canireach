@@ -20,4 +20,9 @@ function list(req, res) {
 }
 exports.list = list;
 ;
+function ackn(req, res) {
+    res.render('ackn', { title: 'ackn', datamain: 'ackn' });
+}
+exports.ackn = ackn;
+;
 //# sourceMappingURL=index.js.map

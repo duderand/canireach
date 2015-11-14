@@ -20,3 +20,7 @@ export function list(req: express.Request, res: express.Response) {
         res.render('list', { title: 'list', datamain: 'list', blocked: urlrecords.getblocked(req) });
     }
 };
+
+export function ackn(req: express.Request, res: express.Response) {
+    res.render('ackn', { title: 'ackn', datamain: 'ackn' });
+};
