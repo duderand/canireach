@@ -5,10 +5,6 @@
 * Do not add depencies to other domains (like fonts).
 * Keep jQuery to a minimum.
 
-## Continous Deployment
-
-This code is automatically deployed to http://canireach.azurewebsites.net/
-
 ## TODO
 
 * add push of test results
